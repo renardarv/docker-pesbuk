@@ -1,5 +1,7 @@
 FROM php:7.4-fpm-alpine
 
+MAINTAINER Arvy <arvy.devops@gmail.com>
+
 # Install some dependencies
 RUN apk --update add \
   git \
